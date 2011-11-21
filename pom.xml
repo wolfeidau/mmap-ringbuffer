@@ -43,13 +43,4 @@
         </extensions>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>wolfeidau.repo</id>
-            <name>Mark Wolfe's Repository</name>
-            <url>scp://repo.wolfe.id.au/home/markw/repository</url>
-            <layout>default</layout>
-        </repository>
-    </distributionManagement>
-
 </project>
