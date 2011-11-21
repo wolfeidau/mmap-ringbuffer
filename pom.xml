@@ -4,7 +4,7 @@
 
     <groupId>au.id.wolfe</groupId>
     <artifactId>mmap-ringbuffer</artifactId>
-    <version>1.6-SNAPSHOT</version>
+    <version>1.5-SNAPSHOT</version>
 
     <organization>
         <name>Mark Wolfe</name>
@@ -42,5 +42,14 @@
             </extension>
         </extensions>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>wolfeidau.repo</id>
+            <name>Mark Wolfe's Repository</name>
+            <url>scp://repo.wolfe.id.au/home/markw/repository</url>
+            <layout>default</layout>
+        </repository>
+    </distributionManagement>
 
 </project>
